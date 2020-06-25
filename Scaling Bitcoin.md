@@ -26,7 +26,7 @@ The distributed nature of blockchains require that all transactions are transmit
 
 This scaling problem is fundamental and might lead to such high transaction costs, that the fundamental properties (like censorship resistance) are only available to the rich if they want to exit the higher layers. More about this in https://anchor.fm/thecryptoconomy/episodes/Read_405---Bitcoin-May-Not-Survive-a-Bitcoin-Standard-Hasu-efkdbh. 
 
-That this will lead to (mainly) custodial solutions is also discussed in [What Bitcoin Is](https://stephanlivera.com/episode/185/) by Vijay Boyapati (who also authored ) who also authored the [The Bullish case for Bitcoin](https://medium.com/@vijayboyapati/the-bullish-case-for-bitcoin-6ecc8bdecc1) ([audio version](https://anchor.fm/thecryptoconomy/episodes/Read_407---The-Bullish-Case-for-Bitcoin-Vijay-Boyapati-efpi06)).
+That this will lead to (mainly) custodial solutions is also discussed in [What Bitcoin Is](https://stephanlivera.com/episode/185/) by Vijay Boyapati (who also authored ) who also authored [The Bullish case for Bitcoin](https://medium.com/@vijayboyapati/the-bullish-case-for-bitcoin-6ecc8bdecc1) ([audio version](https://anchor.fm/thecryptoconomy/episodes/Read_407---The-Bullish-Case-for-Bitcoin-Vijay-Boyapati-efpi06)).
 
 Custodial solutions however lead us back to IOUs, which did not work out well for gold.  
 
@@ -42,19 +42,18 @@ The lightning network enables unlimited number of transactions per user, if the 
 
 #### Cut-through
 
-In Mimblewimble exists the possibility to remove intermediate transactions from the blockchain without deminishing the security of the chain, called "Cut-through". This reduces the storage problem, but leaves the bandwidth and computational costs unchanged. It is unclear if such a cut-through could be applied to bitcoin.
+In Mimblewimble exists the possibility to remove intermediate transactions from the blockchain without deminishing the security of the chain, called "cut-through". This reduces the storage problem, but leaves the bandwidth and computational costs unchanged. It is unclear if such a cut-through could be applied to bitcoin.
 
 #### Driveshains
 
 [Drivechains](https://www.drivechain.info/peer-review/peer-review-new/) seem by far the most promising in the long term, since they are a sidechain. Sidechains generally allow to transfer bitcoin into the sidechain (peg-in) and transfer them back into the bitcoin blockchain (peg-out). While peg-in is easy, doing peg-out in a trust-minimized way is hard. Drivechains resort here to a very very slow peg-out. 
 
-One or many drivechains (1), (2)..., which also have a fixed blocksize, could anker into the bitcoin blockchain. A normal user would however have funds only in one drivechain, e.g., drivechain (1). If they wanted to transact with a user from drivechain (2) they would need to use an intermediary (this intermediary could be non-custodial, such as a lightning network exchange). 
+One or many drivechains (1), (2)..., which also have a fixed block size, could anker into the bitcoin blockchain. A normal user would however have funds only in one drivechain, e.g., drivechain (1). If they wanted to transact with a user from drivechain (2) they would need to use an intermediary (this intermediary could be non-custodial, such as a lightning network exchange). 
 
 Advantages:
 
 * Users have their funds non-custodial
-* If drivechain (1), (2).... have also all too high fees, each drivechain could have more childs (11), (12),...  and (21), (22),....
-* This allows an exponentially large tree, therefore scalable to billions of people, while the user only needs to keep track of the particular branches they have funds in
+* If drivechain (1), (2).... have also all too high fees, each drivechain could have more childs (11), (12),...  and (21), (22),....  This allows an exponentially large tree, therefore scalable to billions of people, while the user only needs to keep track of the particular branches they have funds in
 
 Disadvantages:
 
