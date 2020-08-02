@@ -38,7 +38,9 @@ Thanks to taproot and tapscript (which will be implemented in bitcoin soon) even
 
 #### Lightning network
 
-The lightning network enables unlimited number of transactions per user, if the user has created a sufficient amount of channels. However creating channels itself requires transactions, and considering that there have been only half a billion transactions in a little over 10 years of bitcoin history it is questionable if it has enough capacity to create channels for billions of people. (That Lightning is not secure to use for payments below the blockchain fee is an additional problem.)
+The lightning network enables unlimited number of transactions per user, if the user has created a sufficient amount of channels. Problems:
+- However creating channels itself requires transactions, and considering that there have been only half a billion transactions in a little over 10 years of bitcoin history it is questionable if it has enough capacity to create channels for billions of people. Can channel factories help here?  https://www.tik.ee.ethz.ch/file/a20a865ce40d40c8f942cf206a7cba96/Scalable_Funding_Of_Blockchain_Micropayment_Networks%20(1).pdf
+- Lightning is not secure to use for payments below the blockchain fee  
 
 #### Cut-through
 
