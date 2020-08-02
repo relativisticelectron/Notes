@@ -39,7 +39,7 @@ Thanks to taproot and tapscript (which will be implemented in bitcoin soon) even
 #### Lightning network
 
 The lightning network enables unlimited number of transactions per user, if the user has created a sufficient amount of channels. Problems:
-- Using channel factories one can basiacally create n-sublayers betweenthe basechain and lightning for  N parties. Using schnorr signatures these N parties can create N^2 ligthning channels in the cooperative case. In the case of a single uncooperative person, only O(n) transactions go onto the blockchain.   https://www.tik.ee.ethz.ch/file/a20a865ce40d40c8f942cf206a7cba96/Scalable_Funding_Of_Blockchain_Micropayment_Networks%20(1).pdf
+- Using channel factories one can create n-sublayers betweenthe basechain and lightning for  N parties. Using schnorr signatures these N parties can create N^2 ligthning channels in the cooperative case. In the case of a single uncooperative person, only O(n) transactions go onto the blockchain.   https://www.tik.ee.ethz.ch/file/a20a865ce40d40c8f942cf206a7cba96/Scalable_Funding_Of_Blockchain_Micropayment_Networks%20(1).pdf
 - Lightning is not secure to use for payments below the blockchain fee. The blockchain fee can be macliciously increased (Flood and loot).
 
 #### Cut-through
