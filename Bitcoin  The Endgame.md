@@ -28,3 +28,8 @@ From this scenario we learn an important property:
   b) be more decentralized than the *allowed system*, because otherwise it would not be allowed to exist
 
 The *non-elegant* hard-fork roadmap of monero keeps a) and b), such that 2) can be preserved. 
+
+
+To end on a positive note: 
+1. There will *always* be a way to move value globally, even if one has to use the "bitcoin uncensored". Effective capital controls are a thing of the past. The amount of censorship of the goverment simply will shift the % use of bitcoin and "bitcoin uncensored".
+2. 
