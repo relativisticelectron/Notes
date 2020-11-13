@@ -12,7 +12,7 @@ This leads me to the following scenario (after full censorship on the miners has
   * It must be a hard-fork to introduce replay protection, and perhaps lower the difficulty via code. The hard-fork might also introduce stronger privacy features.
   * This created fork "bitcoin uncensored" will have a different price and there will be black-market exchanges trading bitcoin for "bitcoin uncensored". It will be easy to get "bitcoin uncensored" but difficult to get bitcoin (because this will be classified as "laundering money").
   * This will sort-of reintroduce the system we have right now: 
-    * Anonymous cash (aka "bitcoin uncensored") can be used in samll amounts by normal people or in large amounts by professional criminals (yes you will have to pay the future encryption malware with "bitcoin uncensored"). It will also be used when people are desperate and have to resist the government (war, refugees, ...)
+    * Anonymous cash (aka "bitcoin uncensored") can be used in small amounts by normal people or in large amounts by professional criminals (yes you will have to pay the future encryption malware with "bitcoin uncensored"). It will also be used when people are desperate and have to resist the government (war, refugees, ...)
     * Fiat bank accounts (aka censored bitcoin) can be used by normal people in small and large amounts and by mega-criminals (aka banks, dictators, corrupt politicians and their friends).  
   
   
@@ -20,16 +20,18 @@ This leads me to the following scenario (after full censorship on the miners has
 While the above scenario is far from desirable, it is imho likely.  The depressing thing is that even if bitcoin would have all privacy properties of monero, it would not suffice. The governments can simply require everyone who makes a transaction to reveal their KYC info, otherwise the transaction will not be on a *whitelist*. 
 
 
-From this scenario we learn an important property:
+Let me make one additional argument why 2) is extremely important: If a utxo is blacklisted it effectively means the bitcoins were seized, because this utxo is unspendable. If the government(s) have such censoring ability, they can immediately blackmail their citizens: Send me 50% of your coins or we freeze/blacklist them. 
+  
+  
+From the above scenario we learn an important property:
 
 * Any system that allows forbidden transactions will
 
   a) have weak security, because the big corporations are not allowed to participate  
-  b) be more decentralized than the *allowed system*, because otherwise it would not be allowed to exist
+  b) be more decentralized than the *allowed system*, because otherwise it could be shut down
 
 The *non-elegant* hard-fork roadmap of monero keeps a) and b), such that 2) can be preserved. 
 
 
 To end on a positive note: 
-1. There will *always* be a way to move value globally, even if one has to use the "bitcoin uncensored". Effective capital controls are a thing of the past. The amount of censorship of the goverment simply will shift the % use of bitcoin and "bitcoin uncensored".
-2. 
+* There will *always* be a way to move value globally, even if one has to use the "bitcoin uncensored". Effective capital controls are a thing of the past. The government will simply push usage and value to "bitcoin uncensored" if they censor or seize on bitcoin more.
