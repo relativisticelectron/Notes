@@ -11,7 +11,9 @@ This leads me to the following scenario (after full censorship on the miners has
 * A some point cypherpunkt/criminals/people resisting censorship will hard-fork bitcoin into "bitcoin uncensored" such that they can mine the forbidden transactions and the blocks are not reorged out.
   * It must be a hard-fork to introduce replay protection, and perhaps lower the difficulty via code
   * This created fork "bitcoin uncensored" will have a different price and there will be black-market exchanges trading bitcoin for "bitcoin uncensored". It will be easy to get "bitcoin uncensored" but difficult to get bitcoin (because this will be classified as "laundering money").
-  * This will sort-of reintroduce the system we have right now: Anonymous cash (aka "bitcoin uncensored") can be used in samll amounts by normal people or in large amounts by professional criminals. Fiat bank accounts (aka censerored bitcoin) can be used by normal people in small and large amounts and by mega-criminals (aka banks, corrupt politicians and their friends).
+  * This will sort-of reintroduce the system we have right now: 
+    * Anonymous cash (aka "bitcoin uncensored") can be used in samll amounts by normal people or in large amounts by professional criminals (yes you will have to pay the future encryption malware with "bitcoin uncensored"). It will also be used when people are desperate and have to resist the government (war, refugees, ...)
+    * Fiat bank accounts (aka censerored bitcoin) can be used by normal people in small and large amounts and by mega-criminals (aka banks, dictators, corrupt politicians and their friends).  
   
   
 
