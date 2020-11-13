@@ -22,7 +22,7 @@ While the above scenario is far from desirable, it is imho likely.  The depressi
 
 From this scenario we learn an important property:
 * Any system that allows forbidden transactions will 
-  a) have weak security, because the big corporations are not allowed to participate
-  b) be more decentralized than the *allowed system*, because otherwise it would not be allowed to exist
+  A) have weak security, because the big corporations are not allowed to participate
+  B) be more decentralized than the *allowed system*, because otherwise it would not be allowed to exist
 
-The *non-elegant* hard-fork roadmap of monero keeps a) and b), such that 2) can be preserved. But the 
+The *non-elegant* hard-fork roadmap of monero keeps A) and B), such that 2) can be preserved. But the 
