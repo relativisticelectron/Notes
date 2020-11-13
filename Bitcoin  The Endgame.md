@@ -34,4 +34,4 @@ The *non-elegant* hard-fork roadmap of monero keeps a) and b), such that 2) can 
 
 
 To end on a positive note: 
-* There will *always* be a way to move value globally, even if one has to use the "bitcoin uncensored". Effective capital controls are a thing of the past. The government will simply push usage and value to "bitcoin uncensored" if they censor or seize on bitcoin more.
+* There will *always* be a way to move value globally, even if one has to use the "bitcoin uncensored" or other privacy coins. Effective capital controls are a thing of the past. The government will simply push usage and value to "bitcoin uncensored" if they censor or seize on bitcoin more.
