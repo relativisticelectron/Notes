@@ -17,7 +17,7 @@ This leads me to the following scenario (after full censorship on the miners has
   
   
  
-While the above scenario is far from desirable, it is imho likely.  The depressing thing is that even if bitcoin would have all privacy properties of monero, it would not suffice. The governments can simply require everyone who makes a transaction to reveal their KYC info, otherwise the transaction will not be on a *whitelist*. 
+While the above scenario is far from desirable, it is imho likely.  The depressing thing is that even if bitcoin would have all privacy properties of monero, it would not suffice. The governments can simply require everyone who makes a transaction to reveal their KYC info and who they are sending how much money, otherwise the transaction will not be on a *whitelist*. 
 
 
 Let me make one additional argument why 2) is extremely important: If a utxo is blacklisted it effectively means the bitcoins were seized, because this utxo is unspendable. If the government(s) have such censoring ability, they can immediately blackmail their citizens: Send me 50% of your coins or we freeze/blacklist them. 
