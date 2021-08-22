@@ -43,25 +43,4 @@ The lightning network enables unlimited number of transactions per user, if the 
 Problems:
 - Lightning is not secure to use for payments below the blockchain fee. The blockchain fee can be macliciously increased (Flood and loot).
 
-#### Cut-through
-
-In Mimblewimble exists the possibility to remove intermediate transactions from the blockchain without deminishing the security of the chain, called "cut-through". This reduces the storage problem, but leaves the bandwidth and computational costs unchanged. It is unclear if such a cut-through could be applied to bitcoin.
-
-#### Driveshains
-
-[Drivechains](https://www.drivechain.info/peer-review/peer-review-new/) (a kind of sidechain) seem by far the most promising in the long term. Sidechains generally allow to transfer bitcoin into the sidechain (peg-in) and transfer them back into the bitcoin blockchain (peg-out). While peg-in is easy, doing peg-out in a trust-minimized way is hard. Drivechains resort here to a very very slow peg-out. 
-
-One or many drivechains (1), (2)..., which also have a fixed block size, could anker into the bitcoin blockchain. A normal user would however have funds only in one drivechain, e.g., drivechain (1). If they wanted to transact with a user from drivechain (2) they would need to use an intermediary (this intermediary could be non-custodial, such as a lightning network exchange). 
-
-Advantages:
-
-* Users have their funds non-custodial
-* If drivechain (1), (2).... have also all too high fees, each drivechain could have more childs (11), (12),...  and (21), (22),....  This allows an exponentially large tree, therefore scalable to billions of people, while the user only needs to keep track of the particular branches they have funds in
-
-Disadvantages:
-
-* Transactions cannot be done from anyone to anyone in the same block chain. One needs to have (ideally non-custodial) intermediaries bridging the chains. Luckily this could be completely automated and hidden from the user.
-* There are more trade-offs to drivechains and the drivechains would need to grow into reliable and trustable chains similar to bitcoin today.
-
-
 
