@@ -20,8 +20,8 @@ Let there be $n$ paritcipants wanting to announce $k < n $ lightning channels, e
 Each lightning channel is an already signed (perhaps not broadcasted) Taproot 2 of 2 utxo (created with MuSig2).  We define the set of all the utxos $U_{\geq C} := \{utxo_1, \dots, utxo_k  \}$.
 The $i$-th utxo $utxo_i$ has a public key $P_i$ and a secret key $S_i$.
 
-The $n$ paritcipants now communicate in a *group chat* (via tor). All participants report their utxos.
-Additionally the 2 participants belonging to 1 utxo open 1 \textit{pair chat} with each other (via tor), such that there are $k$ *pair chats*.
+The $n$ paritcipants now communicate in a \textit{group chat} (via tor). All participants report their utxos.
+Additionally the 2 participants belonging to 1 utxo open 1 \textit{pair chat} with each other (via tor), such that there are $k$ \textit{pair chats}.
 
 The $i$-th \textit{pair chat}:
 \begin{enumerate}
