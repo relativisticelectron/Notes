@@ -36,7 +36,7 @@ The blinded message $M_i$ will now be (RSA) signed by all participants with thei
 The $i$-th  \textit{pair chat}:
 \begin{enumerate}
  \item Unblinds the signatures $(s_1^{m_i}, \dots, s_k^{m_i})$ and combines them to a token $t_i := (m_i,U_{\geq C}, P_0, \dots, P_k,  s_1^{m_i}, \dots, s_k^{m_i})$ proving $m_i$ is assigned to some (unknown) utxo in $U_{\geq C} $. The token ownership of $t_i$ can be proven by signing $t_i$ with the secret key $Z_i$, resulting in a signature $s^{t_i}$.
- \item Announces their channel: minimum capacity C, node id of both owners of $utxo_i$, $t_i$ and $s^{t_i}$
+ \item Announces their channel: minimum capacity C, both node ids, $t_i$ and $s^{t_i}$
 
 \end{enumerate}
 
